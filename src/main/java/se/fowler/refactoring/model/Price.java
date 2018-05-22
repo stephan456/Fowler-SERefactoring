@@ -1,11 +1,11 @@
 package main.java.se.fowler.refactoring.model;
 
 public abstract class Price {
-    abstract int getPriceCode();
+    public abstract int getPriceCode();
 
-    abstract double getCharge(int daysRented);
+    public abstract double getCharge(int daysRented);
 
-    int getFrequentRenterPoints(int daysRented){
+    public int getFrequentRenterPoints(int daysRented){
         return 1;
     }
 
