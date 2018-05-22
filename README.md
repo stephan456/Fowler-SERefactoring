@@ -4,3 +4,5 @@ Codacy: [![Codacy Badge](https://api.codacy.com/project/badge/Grade/663dfb31cb02
 
 Intellij offers many useful functionalities for code refactoring. For example moving classes into a package:
 <img src="https://raw.githubusercontent.com/stephan456/Fowler-SERefactoring/master/refactoring_move.JPG"/>
+And extracting parts of the code to methods:
+<img src="https://raw.githubusercontent.com/stephan456/Fowler-SERefactoring/master/refactoring_extract.JPG"/>
