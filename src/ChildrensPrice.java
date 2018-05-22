@@ -11,5 +11,4 @@ public class ChildrensPrice extends Price {
         return result;
     }
 
-
 }
