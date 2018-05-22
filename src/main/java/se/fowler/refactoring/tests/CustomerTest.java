@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class CustomerTest {
 
     @org.junit.jupiter.api.Test
-    void addRental() {
+    protected void addRental() {
         Customer customer = new Customer("Jon Doe");
         customer.addRental(new Rental(new Movie("main.java.se.fowler.refactoring.model.Movie", Movie.NEW_RELEASE), 0));
 
@@ -19,7 +19,7 @@ class CustomerTest {
     }
 
     @org.junit.jupiter.api.Test
-    void getName() {
+    protected void getName() {
         String customerName = "Jon Doe";
         Customer customer = new Customer(customerName);
 
@@ -27,7 +27,7 @@ class CustomerTest {
     }
 
     @org.junit.jupiter.api.Test
-    void statement() {
+    protected void statement() {
         Customer customer = new Customer("Jon Doe");
         String statement = customer.statement();
 

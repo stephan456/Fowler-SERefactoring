@@ -9,7 +9,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 class RentalTest {
 
     @Test
-    void getDaysRented() {
+    protected void getDaysRented() {
         int daysRented = 2;
 
         Movie movie = new Movie("Jon Doe in New York", Movie.NEW_RELEASE);
@@ -19,7 +19,7 @@ class RentalTest {
     }
 
     @Test
-    void getMovie() {
+    protected void getMovie() {
         Movie movie = new Movie("Jon Doe in New York", Movie.NEW_RELEASE);
         Rental rental = new Rental(movie, 0);
 
