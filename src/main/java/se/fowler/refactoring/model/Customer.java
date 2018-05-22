@@ -1,7 +1,9 @@
+package main.java.se.fowler.refactoring.model;
+
 import java.util.Enumeration;
 import java.util.Vector;
 
-class Customer {
+public class Customer {
     private final String name;
     private final Vector rentals = new Vector();
     public Customer (String newname){
@@ -18,7 +20,7 @@ class Customer {
 
     public String statement() {
         Enumeration enum_rentals = rentals.elements();	    
-        StringBuilder result = new StringBuilder("Rental Record for " + this.getName() + "\n");
+        StringBuilder result = new StringBuilder("main.java.se.fowler.refactoring.model.Rental Record for " + this.getName() + "\n");
         result.append("\t" + "Title" + "\t" + "\t" + "Days" + "\t" + "Amount" + "\n");
 
         while (enum_rentals.hasMoreElements()) {

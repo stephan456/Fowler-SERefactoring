@@ -1,3 +1,7 @@
+import main.java.se.fowler.refactoring.model.Customer;
+import main.java.se.fowler.refactoring.model.Movie;
+import main.java.se.fowler.refactoring.model.Rental;
+
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CustomerTest {
@@ -5,7 +9,7 @@ class CustomerTest {
     @org.junit.jupiter.api.Test
     void addRental() {
         Customer customer = new Customer("Jon Doe");
-        customer.addRental(new Rental(new Movie("Movie", Movie.NEW_RELEASE), 0));
+        customer.addRental(new Rental(new Movie("main.java.se.fowler.refactoring.model.Movie", Movie.NEW_RELEASE), 0));
 
         String statement = customer.statement();
 

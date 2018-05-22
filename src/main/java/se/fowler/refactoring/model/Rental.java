@@ -1,4 +1,6 @@
-class Rental {
+package main.java.se.fowler.refactoring.model;
+
+public class Rental {
     private final Movie movie;
     private final int daysRented;
     public Rental(Movie newmovie, int newdaysRented) {

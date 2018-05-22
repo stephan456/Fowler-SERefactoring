@@ -1,3 +1,5 @@
+package main.java.se.fowler.refactoring.model;
+
 public class Movie {
     public static final int CHILDRENS = 2;
     public static final int REGULAR = 0;
@@ -24,7 +26,7 @@ public class Movie {
                 price = new NewReleasePrice();
                 break;
             default:
-                throw new IllegalArgumentException("Incorrect Price Code");
+                throw new IllegalArgumentException("Incorrect main.java.se.fowler.refactoring.model.Price Code");
         }
     }
 

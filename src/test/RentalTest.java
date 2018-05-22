@@ -1,3 +1,5 @@
+import main.java.se.fowler.refactoring.model.Movie;
+import main.java.se.fowler.refactoring.model.Rental;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
