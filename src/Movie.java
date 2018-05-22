@@ -14,7 +14,7 @@ public class Movie {
     public int getPriceCode() {
         return price.getPriceCode();
     }
-    public void setPriceCode(int arg) {
+    private void setPriceCode(int arg) {
         switch (arg) {
             case REGULAR:
                 price = new RegularPrice();
@@ -38,7 +38,7 @@ public class Movie {
         return price.getCharge(daysRented);
     }
 
-    int getFrequentRenterPoints(int daysRented) {
+    public int getFrequentRenterPoints(int daysRented) {
         return price.getFrequentRenterPoints(daysRented);
 
     }

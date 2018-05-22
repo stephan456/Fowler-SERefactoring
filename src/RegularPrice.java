@@ -1,4 +1,4 @@
-public class RegularPrice extends Price {
+class RegularPrice extends Price {
 
     int getPriceCode() {
         return Movie.REGULAR;

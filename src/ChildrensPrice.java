@@ -1,4 +1,4 @@
-public class ChildrensPrice extends Price {
+class ChildrensPrice extends Price {
 
     int getPriceCode() {
         return Movie.CHILDRENS;
