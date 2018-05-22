@@ -1,3 +1,5 @@
+package main.java.se.fowler.refactoring.tests;
+
 import main.java.se.fowler.refactoring.model.Customer;
 import main.java.se.fowler.refactoring.model.Movie;
 import main.java.se.fowler.refactoring.model.Rental;
